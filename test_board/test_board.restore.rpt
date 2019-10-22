@@ -1,0 +1,166 @@
+Restore Archived Project report for test_board
+Tue Oct 22 18:52:30 2019
+Quartus Prime Version 18.1.1 Build 646 04/11/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Tue Oct 22 18:52:30 2019 ;
+; Revision Name                   ; test_board                            ;
+; Top-level Entity Name           ; test_board                            ;
+; Family                          ; Cyclone 10 LP                         ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/myGithub/Trenz/TEI0003-02-test_board-quartus_18.1-20190402/test_board-TEI0003-02.qar' into the 'C:/myGithub/Trenz/TEI0003-02-test_board-quartus_18.1-20190402/test_board-TEI0003-02_restored/' directory
+Info: Generated report 'test_board.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4822 megabytes
+    Info: Processing ended: Tue Oct 22 18:52:30 2019
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Files Restored                                                                                                  ;
++-----------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                       ;
++-----------------------------------------------------------------------------------------------------------------+
+; qar_info.json                                                                                                   ;
+; NIOS_test_board.qsys                                                                                            ;
+; NIOS_test_board.sopcinfo                                                                                        ;
+; NIOS_test_board/NIOS_test_board.cmp                                                                             ;
+; NIOS_test_board/synthesis/NIOS_test_board.debuginfo                                                             ;
+; NIOS_test_board/synthesis/NIOS_test_board.qip                                                                   ;
+; NIOS_test_board/synthesis/NIOS_test_board.regmap                                                                ;
+; NIOS_test_board/synthesis/NIOS_test_board.vhd                                                                   ;
+; NIOS_test_board/synthesis/nios_test_board_rst_controller.vhd                                                    ;
+; NIOS_test_board/synthesis/nios_test_board_rst_controller_001.vhd                                                ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_irq_mapper.sv                                              ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_mm_interconnect_0.v                                        ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_mm_interconnect_0_avalon_st_adapter.v                      ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_mm_interconnect_0_avalon_st_adapter_004.v                  ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_mm_interconnect_0_avalon_st_adapter_004_error_adapter_0.sv ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv     ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_mm_interconnect_0_cmd_demux.sv                             ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_mm_interconnect_0_cmd_mux.sv                               ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_mm_interconnect_0_router.sv                                ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_mm_interconnect_0_router_002.sv                            ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_mm_interconnect_0_router_006.sv                            ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_mm_interconnect_0_rsp_demux.sv                             ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_mm_interconnect_0_rsp_mux.sv                               ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_nios2.v                                                    ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_nios2_cpu.sdc                                              ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_nios2_cpu.v                                                ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_nios2_cpu_debug_slave_sysclk.v                             ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_nios2_cpu_debug_slave_tck.v                                ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_nios2_cpu_debug_slave_wrapper.v                            ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_nios2_cpu_ociram_default_contents.mif                      ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_nios2_cpu_rf_ram_a.mif                                     ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_nios2_cpu_rf_ram_b.mif                                     ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_nios2_cpu_test_bench.v                                     ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_onchip_ram.v                                               ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_pio_led.v                                                  ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_pio_mode.v                                                 ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_pll.v                                                      ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_sdram_controller.v                                         ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_spi_g_sensor.v                                             ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_sysid.v                                                    ;
+; NIOS_test_board/synthesis/submodules/NIOS_test_board_uart.v                                                     ;
+; NIOS_test_board/synthesis/submodules/altera_avalon_sc_fifo.v                                                    ;
+; NIOS_test_board/synthesis/submodules/altera_avalon_st_clock_crosser.v                                           ;
+; NIOS_test_board/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.sdc                               ;
+; NIOS_test_board/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v                                 ;
+; NIOS_test_board/synthesis/submodules/altera_avalon_st_pipeline_base.v                                           ;
+; NIOS_test_board/synthesis/submodules/altera_avalon_st_pipeline_stage.sv                                         ;
+; NIOS_test_board/synthesis/submodules/altera_default_burst_converter.sv                                          ;
+; NIOS_test_board/synthesis/submodules/altera_incr_burst_converter.sv                                             ;
+; NIOS_test_board/synthesis/submodules/altera_merlin_address_alignment.sv                                         ;
+; NIOS_test_board/synthesis/submodules/altera_merlin_arbitrator.sv                                                ;
+; NIOS_test_board/synthesis/submodules/altera_merlin_burst_adapter.sv                                             ;
+; NIOS_test_board/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv                                        ;
+; NIOS_test_board/synthesis/submodules/altera_merlin_burst_adapter_new.sv                                         ;
+; NIOS_test_board/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv                                      ;
+; NIOS_test_board/synthesis/submodules/altera_merlin_burst_uncompressor.sv                                        ;
+; NIOS_test_board/synthesis/submodules/altera_merlin_master_agent.sv                                              ;
+; NIOS_test_board/synthesis/submodules/altera_merlin_master_translator.sv                                         ;
+; NIOS_test_board/synthesis/submodules/altera_merlin_slave_agent.sv                                               ;
+; NIOS_test_board/synthesis/submodules/altera_merlin_slave_translator.sv                                          ;
+; NIOS_test_board/synthesis/submodules/altera_merlin_width_adapter.sv                                             ;
+; NIOS_test_board/synthesis/submodules/altera_onchip_flash.sdc                                                    ;
+; NIOS_test_board/synthesis/submodules/altera_reset_controller.sdc                                                ;
+; NIOS_test_board/synthesis/submodules/altera_reset_controller.v                                                  ;
+; NIOS_test_board/synthesis/submodules/altera_reset_synchronizer.v                                                ;
+; NIOS_test_board/synthesis/submodules/altera_std_synchronizer_nocut.v                                            ;
+; NIOS_test_board/synthesis/submodules/altera_wrap_burst_converter.sv                                             ;
+; assignment_defaults.qdf                                                                                         ;
+; case_state_seq.vhd                                                                                              ;
+; clk_divisor.vhd                                                                                                 ;
+; control_mux.vhd                                                                                                 ;
+; ddrclk.cmp                                                                                                      ;
+; ddrclk.sip                                                                                                      ;
+; ddrclk.spd                                                                                                      ;
+; ddrclk/altera_gpio_lite.sv                                                                                      ;
+; ddrclk_sim/altera_gpio_lite/altera_gpio_lite.sv                                                                 ;
+; ddrclk_sim/altera_gpio_lite/mentor/altera_gpio_lite.sv                                                          ;
+; ddrclk_sim/ddrclk.vhd                                                                                           ;
+; differentiator.vhd                                                                                              ;
+; knightrider.vhd                                                                                                 ;
+; output_files/test_board.jdi                                                                                     ;
+; output_files/test_board.pof                                                                                     ;
+; output_files/test_board.sld                                                                                     ;
+; output_files/test_board.sof                                                                                     ;
+; pwm_gen.vhd                                                                                                     ;
+; pwm_seq.vhd                                                                                                     ;
+; shift_reg_seq.vhd                                                                                               ;
+; software/test_board/mem_init/NIOS_test_board_onchip_ram.hex                                                     ;
+; test_board.bdf                                                                                                  ;
+; test_board.out.sdc                                                                                              ;
+; test_board.qpf                                                                                                  ;
+; test_board.qsf                                                                                                  ;
++-----------------------------------------------------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

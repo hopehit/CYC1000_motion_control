@@ -1,0 +1,222 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 320 536)
+	(text "NIOS_test_board" (rect 110 -1 180 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 520 20 532)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_in_clk" (rect 0 0 38 12)(font "Arial" (font_size 8)))
+		(text "clk_in_clk" (rect 4 61 64 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 128 72)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(input)
+		(text "pio_mode_export[2..0]" (rect 0 0 89 12)(font "Arial" (font_size 8)))
+		(text "pio_mode_export[2..0]" (rect 4 141 130 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 128 152)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 181 82 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 128 192)(line_width 1))
+	)
+	(port
+		(pt 0 400)
+		(input)
+		(text "spi_g_sen_MISO" (rect 0 0 70 12)(font "Arial" (font_size 8)))
+		(text "spi_g_sen_MISO" (rect 4 389 88 400)(font "Arial" (font_size 8)))
+		(line (pt 0 400)(pt 128 400)(line_width 1))
+	)
+	(port
+		(pt 0 488)
+		(input)
+		(text "uart_rxd" (rect 0 0 34 12)(font "Arial" (font_size 8)))
+		(text "uart_rxd" (rect 4 477 52 488)(font "Arial" (font_size 8)))
+		(line (pt 0 488)(pt 128 488)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(output)
+		(text "pio_led_export[7..0]" (rect 0 0 77 12)(font "Arial" (font_size 8)))
+		(text "pio_led_export[7..0]" (rect 4 101 124 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 128 112)(line_width 3))
+	)
+	(port
+		(pt 0 232)
+		(output)
+		(text "sdram_addr[11..0]" (rect 0 0 71 12)(font "Arial" (font_size 8)))
+		(text "sdram_addr[11..0]" (rect 4 221 106 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 128 232)(line_width 3))
+	)
+	(port
+		(pt 0 248)
+		(output)
+		(text "sdram_ba[1..0]" (rect 0 0 60 12)(font "Arial" (font_size 8)))
+		(text "sdram_ba[1..0]" (rect 4 237 88 248)(font "Arial" (font_size 8)))
+		(line (pt 0 248)(pt 128 248)(line_width 3))
+	)
+	(port
+		(pt 0 264)
+		(output)
+		(text "sdram_cas_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "sdram_cas_n" (rect 4 253 70 264)(font "Arial" (font_size 8)))
+		(line (pt 0 264)(pt 128 264)(line_width 1))
+	)
+	(port
+		(pt 0 280)
+		(output)
+		(text "sdram_cke" (rect 0 0 46 12)(font "Arial" (font_size 8)))
+		(text "sdram_cke" (rect 4 269 58 280)(font "Arial" (font_size 8)))
+		(line (pt 0 280)(pt 128 280)(line_width 1))
+	)
+	(port
+		(pt 0 296)
+		(output)
+		(text "sdram_cs_n" (rect 0 0 51 12)(font "Arial" (font_size 8)))
+		(text "sdram_cs_n" (rect 4 285 64 296)(font "Arial" (font_size 8)))
+		(line (pt 0 296)(pt 128 296)(line_width 1))
+	)
+	(port
+		(pt 0 328)
+		(output)
+		(text "sdram_dqm[1..0]" (rect 0 0 68 12)(font "Arial" (font_size 8)))
+		(text "sdram_dqm[1..0]" (rect 4 317 94 328)(font "Arial" (font_size 8)))
+		(line (pt 0 328)(pt 128 328)(line_width 3))
+	)
+	(port
+		(pt 0 344)
+		(output)
+		(text "sdram_ras_n" (rect 0 0 55 12)(font "Arial" (font_size 8)))
+		(text "sdram_ras_n" (rect 4 333 70 344)(font "Arial" (font_size 8)))
+		(line (pt 0 344)(pt 128 344)(line_width 1))
+	)
+	(port
+		(pt 0 360)
+		(output)
+		(text "sdram_we_n" (rect 0 0 53 12)(font "Arial" (font_size 8)))
+		(text "sdram_we_n" (rect 4 349 64 360)(font "Arial" (font_size 8)))
+		(line (pt 0 360)(pt 128 360)(line_width 1))
+	)
+	(port
+		(pt 320 72)
+		(output)
+		(text "sdram_clk_clk" (rect 0 0 59 12)(font "Arial" (font_size 8)))
+		(text "sdram_clk_clk" (rect 248 61 326 72)(font "Arial" (font_size 8)))
+		(line (pt 320 72)(pt 192 72)(line_width 1))
+	)
+	(port
+		(pt 0 416)
+		(output)
+		(text "spi_g_sen_MOSI" (rect 0 0 70 12)(font "Arial" (font_size 8)))
+		(text "spi_g_sen_MOSI" (rect 4 405 88 416)(font "Arial" (font_size 8)))
+		(line (pt 0 416)(pt 128 416)(line_width 1))
+	)
+	(port
+		(pt 0 432)
+		(output)
+		(text "spi_g_sen_SCLK" (rect 0 0 73 12)(font "Arial" (font_size 8)))
+		(text "spi_g_sen_SCLK" (rect 4 421 88 432)(font "Arial" (font_size 8)))
+		(line (pt 0 432)(pt 128 432)(line_width 1))
+	)
+	(port
+		(pt 0 448)
+		(output)
+		(text "spi_g_sen_SS_n" (rect 0 0 69 12)(font "Arial" (font_size 8)))
+		(text "spi_g_sen_SS_n" (rect 4 437 88 448)(font "Arial" (font_size 8)))
+		(line (pt 0 448)(pt 128 448)(line_width 1))
+	)
+	(port
+		(pt 0 504)
+		(output)
+		(text "uart_txd" (rect 0 0 33 12)(font "Arial" (font_size 8)))
+		(text "uart_txd" (rect 4 493 52 504)(font "Arial" (font_size 8)))
+		(line (pt 0 504)(pt 128 504)(line_width 1))
+	)
+	(port
+		(pt 0 312)
+		(bidir)
+		(text "sdram_dq[15..0]" (rect 0 0 64 12)(font "Arial" (font_size 8)))
+		(text "sdram_dq[15..0]" (rect 4 301 94 312)(font "Arial" (font_size 8)))
+		(line (pt 0 312)(pt 128 312)(line_width 3))
+	)
+	(drawing
+		(text "clk_in" (rect 95 43 226 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 133 67 284 144)(font "Arial" (color 0 0 0)))
+		(text "pio_led" (rect 87 83 216 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 133 107 302 224)(font "Arial" (color 0 0 0)))
+		(text "pio_mode" (rect 72 123 192 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 133 147 302 304)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 99 163 228 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 133 187 308 384)(font "Arial" (color 0 0 0)))
+		(text "sdram" (rect 92 203 214 419)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "addr" (rect 133 227 290 464)(font "Arial" (color 0 0 0)))
+		(text "ba" (rect 133 243 278 496)(font "Arial" (color 0 0 0)))
+		(text "cas_n" (rect 133 259 296 528)(font "Arial" (color 0 0 0)))
+		(text "cke" (rect 133 275 284 560)(font "Arial" (color 0 0 0)))
+		(text "cs_n" (rect 133 291 290 592)(font "Arial" (color 0 0 0)))
+		(text "dq" (rect 133 307 278 624)(font "Arial" (color 0 0 0)))
+		(text "dqm" (rect 133 323 284 656)(font "Arial" (color 0 0 0)))
+		(text "ras_n" (rect 133 339 296 688)(font "Arial" (color 0 0 0)))
+		(text "we_n" (rect 133 355 290 720)(font "Arial" (color 0 0 0)))
+		(text "sdram_clk" (rect 193 43 440 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 177 67 372 144)(font "Arial" (color 0 0 0)))
+		(text "spi_g_sen" (rect 68 371 190 755)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "MISO" (rect 133 395 290 800)(font "Arial" (color 0 0 0)))
+		(text "MOSI" (rect 133 411 290 832)(font "Arial" (color 0 0 0)))
+		(text "SCLK" (rect 133 427 290 864)(font "Arial" (color 0 0 0)))
+		(text "SS_n" (rect 133 443 290 896)(font "Arial" (color 0 0 0)))
+		(text "uart" (rect 106 459 236 931)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "rxd" (rect 133 483 284 976)(font "Arial" (color 0 0 0)))
+		(text "txd" (rect 133 499 284 1008)(font "Arial" (color 0 0 0)))
+		(text " NIOS_test_board " (rect 242 520 586 1050)(font "Arial" ))
+		(line (pt 128 32)(pt 192 32)(line_width 1))
+		(line (pt 192 32)(pt 192 520)(line_width 1))
+		(line (pt 128 520)(pt 192 520)(line_width 1))
+		(line (pt 128 32)(pt 128 520)(line_width 1))
+		(line (pt 129 52)(pt 129 76)(line_width 1))
+		(line (pt 130 52)(pt 130 76)(line_width 1))
+		(line (pt 129 92)(pt 129 116)(line_width 1))
+		(line (pt 130 92)(pt 130 116)(line_width 1))
+		(line (pt 129 132)(pt 129 156)(line_width 1))
+		(line (pt 130 132)(pt 130 156)(line_width 1))
+		(line (pt 129 172)(pt 129 196)(line_width 1))
+		(line (pt 130 172)(pt 130 196)(line_width 1))
+		(line (pt 129 212)(pt 129 364)(line_width 1))
+		(line (pt 130 212)(pt 130 364)(line_width 1))
+		(line (pt 191 52)(pt 191 76)(line_width 1))
+		(line (pt 190 52)(pt 190 76)(line_width 1))
+		(line (pt 129 380)(pt 129 452)(line_width 1))
+		(line (pt 130 380)(pt 130 452)(line_width 1))
+		(line (pt 129 468)(pt 129 508)(line_width 1))
+		(line (pt 130 468)(pt 130 508)(line_width 1))
+		(line (pt 0 0)(pt 320 0)(line_width 1))
+		(line (pt 320 0)(pt 320 536)(line_width 1))
+		(line (pt 0 536)(pt 320 536)(line_width 1))
+		(line (pt 0 0)(pt 0 536)(line_width 1))
+	)
+)

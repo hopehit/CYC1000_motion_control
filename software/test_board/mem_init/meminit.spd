@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+<file path="hdl_sim/NIOS_test_board_onchip_ram.dat" type="DAT" initParamName="INIT_FILE" memoryPath="onchip_ram" />
+<file path="hdl_sim/sdram_controller.dat" type="DAT" memoryPath="sdram_controller" />
+<file path="NIOS_test_board_onchip_ram.hex" type="HEX" initParamName="INIT_FILE" memoryPath="onchip_ram" />
+</simPackage>

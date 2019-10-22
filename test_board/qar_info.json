@@ -1,0 +1,7 @@
+{
+	"common_dir" : "S:/Projekte/TEI0003/18.1/test_board/",
+	"acds_version" : "Version 18.1.0",
+	"platform" : "windows",
+	"os" : "Windows 10",
+	"qpf" : "test_board.qpf"
+}

@@ -1,0 +1,150 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\myGithub\Trenz\TEI0003-02-test_board-quartus_18.1-20190402\test_board-TEI0003-02_restored\NIOS_test_board.qsys --block-symbol-file --output-directory=C:\myGithub\Trenz\TEI0003-02-test_board-quartus_18.1-20190402\test_board-TEI0003-02_restored\NIOS_test_board --family="Cyclone 10 LP" --part=10CL025YU256C8G
+Progress: Loading test_board-TEI0003-02_restored/NIOS_test_board.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 18.1]
+Progress: Parameterizing module clk
+Progress: Adding nios2 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2
+Progress: Adding onchip_ram [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_ram
+Progress: Adding pio_led [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_led
+Progress: Adding pio_mode [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_mode
+Progress: Adding pll [altpll 18.1]
+Progress: Parameterizing module pll
+Progress: Adding sdram_controller [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram_controller
+Progress: Adding spi_g_sensor [altera_avalon_spi 18.1]
+Progress: Parameterizing module spi_g_sensor
+Progress: Adding sysid [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid
+Progress: Adding uart [altera_avalon_uart 18.1]
+Progress: Parameterizing module uart
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: NIOS_test_board.pio_mode: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: NIOS_test_board.sdram_controller: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: NIOS_test_board.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: NIOS_test_board.sysid: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\myGithub\Trenz\TEI0003-02-test_board-quartus_18.1-20190402\test_board-TEI0003-02_restored\NIOS_test_board.qsys --synthesis=VERILOG --output-directory=C:\myGithub\Trenz\TEI0003-02-test_board-quartus_18.1-20190402\test_board-TEI0003-02_restored\NIOS_test_board\synthesis --family="Cyclone 10 LP" --part=10CL025YU256C8G
+Progress: Loading test_board-TEI0003-02_restored/NIOS_test_board.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 18.1]
+Progress: Parameterizing module clk
+Progress: Adding nios2 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2
+Progress: Adding onchip_ram [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_ram
+Progress: Adding pio_led [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_led
+Progress: Adding pio_mode [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_mode
+Progress: Adding pll [altpll 18.1]
+Progress: Parameterizing module pll
+Progress: Adding sdram_controller [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram_controller
+Progress: Adding spi_g_sensor [altera_avalon_spi 18.1]
+Progress: Parameterizing module spi_g_sensor
+Progress: Adding sysid [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid
+Progress: Adding uart [altera_avalon_uart 18.1]
+Progress: Parameterizing module uart
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: NIOS_test_board.pio_mode: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: NIOS_test_board.sdram_controller: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: NIOS_test_board.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: NIOS_test_board.sysid: Time stamp will be automatically updated when this component is generated.
+Info: NIOS_test_board: Generating NIOS_test_board "NIOS_test_board" for QUARTUS_SYNTH
+Info: Inserting clock-crossing logic between cmd_demux.src2 and cmd_mux_002.sink0
+Info: Inserting clock-crossing logic between cmd_demux_001.src2 and cmd_mux_002.sink1
+Info: Inserting clock-crossing logic between rsp_demux_002.src0 and rsp_mux.sink2
+Info: Inserting clock-crossing logic between rsp_demux_002.src1 and rsp_mux_001.sink2
+Info: nios2: "NIOS_test_board" instantiated altera_nios2_gen2 "nios2"
+Info: onchip_ram: Starting RTL generation for module 'NIOS_test_board_onchip_ram'
+Info: onchip_ram:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=NIOS_test_board_onchip_ram --dir=C:/Users/john/AppData/Local/Temp/alt8191_2520408189964585182.dir/0002_onchip_ram_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/john/AppData/Local/Temp/alt8191_2520408189964585182.dir/0002_onchip_ram_gen//NIOS_test_board_onchip_ram_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_ram: Done RTL generation for module 'NIOS_test_board_onchip_ram'
+Info: onchip_ram: "NIOS_test_board" instantiated altera_avalon_onchip_memory2 "onchip_ram"
+Info: pio_led: Starting RTL generation for module 'NIOS_test_board_pio_led'
+Info: pio_led:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=NIOS_test_board_pio_led --dir=C:/Users/john/AppData/Local/Temp/alt8191_2520408189964585182.dir/0003_pio_led_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/john/AppData/Local/Temp/alt8191_2520408189964585182.dir/0003_pio_led_gen//NIOS_test_board_pio_led_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_led: Done RTL generation for module 'NIOS_test_board_pio_led'
+Info: pio_led: "NIOS_test_board" instantiated altera_avalon_pio "pio_led"
+Info: pio_mode: Starting RTL generation for module 'NIOS_test_board_pio_mode'
+Info: pio_mode:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=NIOS_test_board_pio_mode --dir=C:/Users/john/AppData/Local/Temp/alt8191_2520408189964585182.dir/0004_pio_mode_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/john/AppData/Local/Temp/alt8191_2520408189964585182.dir/0004_pio_mode_gen//NIOS_test_board_pio_mode_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_mode: Done RTL generation for module 'NIOS_test_board_pio_mode'
+Info: pio_mode: "NIOS_test_board" instantiated altera_avalon_pio "pio_mode"
+Info: pll: "NIOS_test_board" instantiated altpll "pll"
+Info: sdram_controller: Starting RTL generation for module 'NIOS_test_board_sdram_controller'
+Info: sdram_controller:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=NIOS_test_board_sdram_controller --dir=C:/Users/john/AppData/Local/Temp/alt8191_2520408189964585182.dir/0007_sdram_controller_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/john/AppData/Local/Temp/alt8191_2520408189964585182.dir/0007_sdram_controller_gen//NIOS_test_board_sdram_controller_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram_controller: Done RTL generation for module 'NIOS_test_board_sdram_controller'
+Info: sdram_controller: "NIOS_test_board" instantiated altera_avalon_new_sdram_controller "sdram_controller"
+Info: spi_g_sensor: Starting RTL generation for module 'NIOS_test_board_spi_g_sensor'
+Info: spi_g_sensor:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_spi -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_spi/generate_rtl.pl --name=NIOS_test_board_spi_g_sensor --dir=C:/Users/john/AppData/Local/Temp/alt8191_2520408189964585182.dir/0008_spi_g_sensor_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/john/AppData/Local/Temp/alt8191_2520408189964585182.dir/0008_spi_g_sensor_gen//NIOS_test_board_spi_g_sensor_component_configuration.pl  --do_build_sim=0  ]
+Info: spi_g_sensor: Done RTL generation for module 'NIOS_test_board_spi_g_sensor'
+Info: spi_g_sensor: "NIOS_test_board" instantiated altera_avalon_spi "spi_g_sensor"
+Info: sysid: "NIOS_test_board" instantiated altera_avalon_sysid_qsys "sysid"
+Info: uart: Starting RTL generation for module 'NIOS_test_board_uart'
+Info: uart:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_uart/generate_rtl.pl --name=NIOS_test_board_uart --dir=C:/Users/john/AppData/Local/Temp/alt8191_2520408189964585182.dir/0010_uart_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/john/AppData/Local/Temp/alt8191_2520408189964585182.dir/0010_uart_gen//NIOS_test_board_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: uart: Done RTL generation for module 'NIOS_test_board_uart'
+Info: uart: "NIOS_test_board" instantiated altera_avalon_uart "uart"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "NIOS_test_board" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "NIOS_test_board" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "NIOS_test_board" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'NIOS_test_board_nios2_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=NIOS_test_board_nios2_cpu --dir=C:/Users/john/AppData/Local/Temp/alt8191_2520408189964585182.dir/0013_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/john/AppData/Local/Temp/alt8191_2520408189964585182.dir/0013_cpu_gen//NIOS_test_board_nios2_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2019.10.22 18:54:12 (*) Starting Nios II generation
+Info: cpu: # 2019.10.22 18:54:12 (*)   Checking for plaintext license.
+Info: cpu: # 2019.10.22 18:54:13 (*)   Plaintext license not found.
+Info: cpu: # 2019.10.22 18:54:13 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2019.10.22 18:54:13 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2019.10.22 18:54:13 (*)   Creating all objects for CPU
+Info: cpu: # 2019.10.22 18:54:14 (*)   Generating RTL from CPU objects
+Info: cpu: # 2019.10.22 18:54:14 (*)   Creating plain-text RTL
+Info: cpu: # 2019.10.22 18:54:16 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'NIOS_test_board_nios2_cpu'
+Info: cpu: "nios2" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_data_master_translator"
+Info: sysid_control_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "sysid_control_slave_translator"
+Info: nios2_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_data_master_agent"
+Info: sysid_control_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "sysid_control_slave_agent"
+Info: sysid_control_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "sysid_control_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_006: "mm_interconnect_0" instantiated altera_merlin_router "router_006"
+Info: sdram_controller_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "sdram_controller_s1_burst_adapter"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/myGithub/Trenz/TEI0003-02-test_board-quartus_18.1-20190402/test_board-TEI0003-02_restored/NIOS_test_board/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: sdram_controller_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "sdram_controller_s1_rsp_width_adapter"
+Info: Reusing file C:/myGithub/Trenz/TEI0003-02-test_board-quartus_18.1-20190402/test_board-TEI0003-02_restored/NIOS_test_board/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/myGithub/Trenz/TEI0003-02-test_board-quartus_18.1-20190402/test_board-TEI0003-02_restored/NIOS_test_board/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: Reusing file C:/myGithub/Trenz/TEI0003-02-test_board-quartus_18.1-20190402/test_board-TEI0003-02_restored/NIOS_test_board/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_004: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_004"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_004" instantiated error_adapter "error_adapter_0"
+Info: NIOS_test_board: Done "NIOS_test_board" with 33 modules, 57 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
